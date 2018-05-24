@@ -1,4 +1,4 @@
-const hasWindow = typeof window !== 'undefined'
+var hasWindow = typeof window !== 'undefined'
 
 module.exports = function (Component) {
   return function (name, state, emit) {
